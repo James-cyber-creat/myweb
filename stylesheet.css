@@ -1,0 +1,110 @@
+html{
+    height: 100%;
+}
+.conteiner{
+    /*width:100%;
+    background-color:rgba(5, 5, 5, 0.842);*/
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+}
+body{
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.788);
+    background-image: url("mashpic.jpg");
+    /* background-size: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+header h1{
+   font-size:50px;
+   /* font-family: Arial, Helvetica, sans-serif; */
+   font-style: italic;
+   color:whitesmoke;
+   text-align: center;
+   text-shadow: rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377) ;
+   
+   
+}
+h1{
+    font-size: 18px;
+    color:whitesmoke;
+}
+h2{
+    color:whitesmoke;
+    font-size:18px;
+    text-align: center;
+}
+header{
+   /* background-color:blue;*/
+    height:100px;
+    
+}
+nav{
+   /* background-color:red;*/
+    /* height:50px; */
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-top:40px;
+    text-align: center;
+    height:30px;
+    padding-top:20px;
+    padding-bottom:18px;
+    
+    
+}
+nav a{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size:13px;
+    padding-right: 18px;
+    padding-left:18px;
+    
+    
+
+}
+nav a:hover{
+    border-bottom:2px solid rgb(214, 214, 214);
+}
+main{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:whitesmoke;
+    margin-top:100px;
+
+
+}
+main p{
+    padding-left:100px;
+    padding-right: 100px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.603);
+    padding-top:18px;
+    padding-bottom:18px;
+    margin-top:90px;
+}
+
+button{
+    padding:10px;
+    color:rgba(255, 60, 0, 0.89);
+    border:none;
+    text-align:center;
+}
+button:hover{
+    color:white;
+    background-color:red;
+    
+}
+
